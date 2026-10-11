@@ -472,8 +472,8 @@ nav .nav-tab .asset-icon,nav .nav-tab .ui-icon{display:inline-flex;align-items:c
 .contact-links a[href="https://github.com/mintlip"]>.asset-icon{color:#fff}
 @media(max-width:680px){nav .nav-tab{gap:5px}nav .nav-tab .asset-icon,nav .nav-tab .ui-icon{width:14px;height:14px;min-width:14px;flex-basis:14px;font-size:14px}}
 
-/* Optical alignment: retain equal slots while balancing these two glyphs. */
-nav .nav-tab[href="#skills"]>.ui-icon{transform:scale(.80);transform-origin:center}
+/* Keep the Skills SVG at full size and align navigation glyphs optically. */
+nav .nav-tab[href="#skills"]>.ui-icon{transform:translateY(-1px);transform-origin:center}
 nav .nav-tab[href="#cv"]>.cv-icon{transform:translateY(-1px) scale(.86);transform-origin:center}
 
 /* Align the remaining navigation icons with the approved Skills and CV positions. */
