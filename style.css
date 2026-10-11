@@ -612,3 +612,76 @@ dialog::backdrop{-webkit-backdrop-filter:blur(5px)}
     display: inline !important;
   }
 }
+
+/* Vector controls do not depend on the device's emoji font. */
+svg.vector-icon {
+  display: block;
+  flex-shrink: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+.hdr-badges .vector-icon {
+  width: 12px;
+  height: 12px;
+  flex: 0 0 12px;
+}
+.action-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  min-width: 1em;
+  flex: 0 0 1em;
+  vertical-align: -0.12em;
+  overflow: visible;
+  pointer-events: none;
+}
+.aero-btn > .action-icon,
+.project-open > .action-icon {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  flex-basis: 16px;
+}
+.project-open > .action-icon { transition: transform .2s; }
+@media (hover: hover) and (pointer: fine) {
+  .project-open:hover > .action-icon { transform: translate(2px, -2px); }
+}
+.motion-paused .project-open > .action-icon { transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .project-open > .action-icon { transition: none; transform: none !important; }
+}
+
+/* Match the icon slots and label baselines in the mobile menu. */
+@media (max-width: 680px) {
+  .site > header > nav > .nav-tab,
+  .site > header > nav > .motion {
+    min-height: 46px !important;
+    align-self: stretch;
+    gap: 8px;
+  }
+  .site > header > nav > .motion { font-weight: 700; }
+  .site > header > nav > .nav-tab > svg.nav-icon,
+  .site > header > nav > .motion > svg.nav-icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    flex: 0 0 16px;
+    margin: 0;
+    transform: none;
+    overflow: visible;
+    pointer-events: none;
+  }
+  /* Home has more whitespace inside the supplied SVG than the other icons. */
+  .site > header > nav > .nav-tab[href="#home"] > svg.nav-icon {
+    transform: scale(1.15);
+    transform-origin: center;
+  }
+  .site > header > nav > .nav-tab > .nav-label,
+  .site > header > nav > .motion > .nav-label {
+    display: block !important;
+    margin: 0;
+    line-height: 1.2;
+    flex: 0 0 auto;
+  }
+}
