@@ -1,0 +1,33 @@
+Skill logos: Devicon (MIT), https://github.com/devicons/devicon ; fallback Simple Icons, https://github.com/simple-icons/simple-icons .
+SQL uses the Azure SQL Database pictogram.
+
+C: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg
+C++: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg
+Java: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg
+Python: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg
+Dart: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg
+Kotlin: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg
+C#: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg
+SQL: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg
+HTML: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg
+CSS: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg
+JavaScript: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg
+Flutter: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg
+Flask: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg
+FastAPI: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg
+Laravel: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg
+MySQL: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg
+SQLite: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg
+Visual Studio Code: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg
+Android Studio: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg
+Eclipse: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original.svg
+GitHub: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg
+Postman: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg
+Swagger UI: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg
+Laragon: https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/laragon.svg
+Docker: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg
+Figma: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg
+Canva: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg
+Render: https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/render.svg
+Unity: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg
+Blender: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg
