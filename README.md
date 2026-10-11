@@ -1,6 +1,6 @@
 # Portfolio Website
 
-My personal portfolio showcasing design and development projects, skills, experience, and CV.
+My personal portfolio :D
 
 Built with HTML, CSS, and JavaScript, with a Frutiger Aero-inspired interface.
 
